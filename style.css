@@ -45,6 +45,7 @@ a {
     padding: 0px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .toogle span {
@@ -57,10 +58,12 @@ a {
 
 .nav_img {
     padding-right: 20px;
+    padding-top: 4px;
 }
 
 .toogle {
     margin: 15px 20px 0px;
+    cursor: pointer;
 }
 
 .icon,
@@ -72,9 +75,14 @@ a {
 
 .icon1 {
     border: 1px solid white;
-    border-radius: 50%;
-    padding: 5px;
     margin: 0px 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav_left_text {
@@ -101,6 +109,7 @@ a {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    cursor: pointer;
 }
 
 
